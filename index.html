@@ -4,126 +4,413 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark" />
-  <title>Privacy Policy — ARC Raiders Quest Tracker</title>
-  <meta name="description" content="Privacy Policy for ARC Raiders Quest Tracker." />
+
+  <title>Privacy Policy — Quest Tracker for Raiders</title>
+  <meta
+    name="description"
+    content="Privacy Policy for Quest Tracker for Raiders."
+  />
+
   <style>
-    :root { --bg:#0b0d10; --panel:#11151a; --panel-strong:#171c22; --text:#f1f3f5; --muted:#9aa3ad; --line:rgba(255,255,255,.10); --accent:#ff8a24; --accent-soft:rgba(255,138,36,.12); --max:900px; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; background:linear-gradient(rgba(255,255,255,.015) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.015) 1px,transparent 1px),var(--bg); background-size:48px 48px; color:var(--text); line-height:1.7; }
-    .wrap { width:min(calc(100% - 32px),var(--max)); margin:0 auto; padding:56px 0 72px; }
-    .terminal-label { color:var(--accent); font-size:12px; letter-spacing:.14em; text-transform:uppercase; margin-bottom:10px; }
-    h1 { margin:0 0 12px; font-size:clamp(30px,5vw,52px); line-height:1.05; letter-spacing:-.03em; }
-    .updated { color:var(--muted); font-size:13px; margin-bottom:28px; }
-    .intro { padding:18px 20px; background:var(--panel-strong); border:1px solid var(--line); border-left:3px solid var(--accent); margin-bottom:20px; }
-    .section { background:var(--panel); border:1px solid var(--line); padding:22px; margin:14px 0; }
-    h2 { margin:0 0 10px; font-size:18px; color:var(--accent); letter-spacing:.02em; }
-    p { margin:0; color:#d9dee3; }
-    .section p + p { margin-top:10px; }
-    ul { margin:10px 0 0; padding-left:22px; color:#d9dee3; }
-    li + li { margin-top:6px; }
-    a { color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(255,138,36,.35); }
-    a:hover { border-bottom-color:var(--accent); }
-    .notice { background:var(--accent-soft); border-color:rgba(255,138,36,.35); }
-    footer { margin-top:28px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
-    @media (max-width:600px) { .wrap { width:min(calc(100% - 20px),var(--max)); padding-top:28px; } .section,.intro { padding:16px; } }
+    :root {
+      --bg:#0b0d10;
+      --panel:#11151a;
+      --panel-strong:#171c22;
+      --text:#f1f3f5;
+      --muted:#9aa3ad;
+      --line:rgba(255,255,255,.10);
+      --accent:#ff8a24;
+      --accent-soft:rgba(255,138,36,.12);
+      --max:900px;
+    }
+
+    * {
+      box-sizing:border-box;
+    }
+
+    html {
+      scroll-behavior:smooth;
+    }
+
+    body {
+      margin:0;
+      font-family:
+        ui-monospace,
+        SFMono-Regular,
+        Menlo,
+        Monaco,
+        Consolas,
+        "Liberation Mono",
+        "Courier New",
+        monospace;
+      background:
+        linear-gradient(rgba(255,255,255,.015) 1px, transparent 1px),
+        linear-gradient(90deg,rgba(255,255,255,.015) 1px, transparent 1px),
+        var(--bg);
+      background-size:48px 48px;
+      color:var(--text);
+      line-height:1.7;
+    }
+
+    .wrap {
+      width:min(calc(100% - 32px),var(--max));
+      margin:0 auto;
+      padding:56px 0 72px;
+    }
+
+    .terminal-label {
+      color:var(--accent);
+      font-size:12px;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      margin-bottom:10px;
+    }
+
+    h1 {
+      margin:0 0 12px;
+      font-size:clamp(30px,5vw,52px);
+      line-height:1.05;
+      letter-spacing:-.03em;
+    }
+
+    .updated {
+      color:var(--muted);
+      font-size:13px;
+      margin-bottom:28px;
+    }
+
+    .intro {
+      padding:18px 20px;
+      background:var(--panel-strong);
+      border:1px solid var(--line);
+      border-left:3px solid var(--accent);
+      margin-bottom:20px;
+    }
+
+    .section {
+      background:var(--panel);
+      border:1px solid var(--line);
+      padding:22px;
+      margin:14px 0;
+    }
+
+    h2 {
+      margin:0 0 10px;
+      font-size:18px;
+      color:var(--accent);
+      letter-spacing:.02em;
+    }
+
+    p {
+      margin:0;
+      color:#d9dee3;
+    }
+
+    .section p + p {
+      margin-top:10px;
+    }
+
+    ul {
+      margin:10px 0 0;
+      padding-left:22px;
+      color:#d9dee3;
+    }
+
+    li + li {
+      margin-top:6px;
+    }
+
+    a {
+      color:var(--accent);
+      text-decoration:none;
+      border-bottom:1px solid rgba(255,138,36,.35);
+    }
+
+    a:hover {
+      border-bottom-color:var(--accent);
+    }
+
+    .notice {
+      background:var(--accent-soft);
+      border-color:rgba(255,138,36,.35);
+    }
+
+    footer {
+      margin-top:28px;
+      padding-top:18px;
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      font-size:12px;
+    }
+
+    @media (max-width:600px) {
+      .wrap {
+        width:min(calc(100% - 20px),var(--max));
+        padding-top:28px;
+      }
+
+      .section,
+      .intro {
+        padding:16px;
+      }
+    }
   </style>
 </head>
+
 <body>
   <main class="wrap">
+
     <div class="terminal-label">// Privacy Protocol</div>
+
     <h1>Privacy Policy</h1>
-    <div class="updated">ARC Raiders Quest Tracker · Last updated: September 5, 2026</div>
+
+    <div class="updated">
+      Quest Tracker for Raiders · Last updated: September 21, 2026
+    </div>
 
     <div class="intro">
-      ARC Raiders Quest Tracker respects your privacy. The app does not require a user account.
-      Some information may be processed by third-party services used for advertising and event data, as described below.
+      Quest Tracker for Raiders respects your privacy.
+      The app does not require a user account.
+      Some information may be processed by third-party services used
+      for advertising and event data, as described below.
     </div>
 
     <section class="section">
       <h2>Information Stored on Your Device</h2>
-      <p>Quest progress, tracking preferences, workshop-related state, language settings, consent choices, and other app preferences may be stored locally on your device. This information is used to provide app functionality.</p>
+
+      <p>
+        Quest progress, tracking preferences, workshop-related state,
+        language settings, consent choices, and other app preferences
+        may be stored locally on your device.
+        This information is used to provide app functionality.
+      </p>
     </section>
 
     <section class="section">
       <h2>External Data Services</h2>
-      <p>The app connects to MetaForge to retrieve ARC Raiders event schedule data. Requests to MetaForge may be subject to MetaForge's own server logging and privacy practices. ARC Raiders Quest Tracker does not use this connection to create user profiles.</p>
-      <p>MetaForge: <a href="https://metaforge.app/arc-raiders" target="_blank" rel="noopener noreferrer">metaforge.app/arc-raiders</a></p>
+
+      <p>
+        The app connects to MetaForge to retrieve game event schedule data.
+        Requests to MetaForge may be subject to MetaForge's own server
+        logging and privacy practices.
+        Quest Tracker for Raiders does not use this connection
+        to create user profiles.
+      </p>
+
+      <p>
+        MetaForge:
+        <a
+          href="https://metaforge.app/arc-raiders"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          metaforge.app
+        </a>
+      </p>
     </section>
 
     <section class="section">
       <h2>Advertising</h2>
-      <p>ARC Raiders Quest Tracker uses Google Mobile Ads (AdMob) to display advertisements. Google and its advertising partners may process information in order to provide, measure, secure, and improve advertising services.</p>
-      <p>Depending on device settings, consent choices, applicable law, and the type of ad served, information processed by Google Mobile Ads may include:</p>
+
+      <p>
+        Quest Tracker for Raiders uses Google Mobile Ads (AdMob)
+        to display advertisements.
+        Google and its advertising partners may process information
+        in order to provide, measure, secure, and improve
+        advertising services.
+      </p>
+
+      <p>
+        Depending on device settings, consent choices, applicable law,
+        and the type of ad served, information processed by
+        Google Mobile Ads may include:
+      </p>
+
       <ul>
-        <li>IP address, which may be used to estimate general location.</li>
-        <li>Device identifiers, including advertising or app-bounded identifiers where available.</li>
-        <li>Advertising data, such as ads shown to the user.</li>
-        <li>App and ad interaction data, such as launches, taps, and video views.</li>
-        <li>Crash, diagnostic, and performance information.</li>
+        <li>
+          IP address, which may be used to estimate general location.
+        </li>
+
+        <li>
+          Device identifiers, including advertising or app-bounded
+          identifiers where available.
+        </li>
+
+        <li>
+          Advertising data, such as ads shown to the user.
+        </li>
+
+        <li>
+          App and ad interaction data, such as launches, taps,
+          and video views.
+        </li>
+
+        <li>
+          Crash, diagnostic, and performance information.
+        </li>
       </ul>
-      <p>The exact data processed may vary depending on the user's privacy choices, device configuration, region, and Google's current advertising systems.</p>
-      <p>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a></p>
+
+      <p>
+        The exact data processed may vary depending on the user's
+        privacy choices, device configuration, region,
+        and Google's current advertising systems.
+      </p>
+
+      <p>
+        Google Privacy Policy:
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          policies.google.com/privacy
+        </a>
+      </p>
     </section>
 
     <section class="section">
       <h2>Consent and Privacy Choices</h2>
-      <p>The app uses Google's User Messaging Platform (UMP) to request and manage advertising privacy choices where required by applicable privacy regulations.</p>
-      <p>Depending on the user's region, available options may include consenting to advertising data processing, declining consent, managing individual privacy choices, or opting out of the sale or sharing of personal data.</p>
-      <p>Users can revisit applicable advertising privacy choices through the <strong>Advertising Privacy Settings</strong> option in the app's Settings screen when that option is required.</p>
+
+      <p>
+        The app uses Google's User Messaging Platform (UMP)
+        to request and manage advertising privacy choices
+        where required by applicable privacy regulations.
+      </p>
+
+      <p>
+        Depending on the user's region, available options may include
+        consenting to advertising data processing, declining consent,
+        managing individual privacy choices, or opting out of the sale
+        or sharing of personal data.
+      </p>
+
+      <p>
+        Users can revisit applicable advertising privacy choices
+        through the <strong>Advertising Privacy Settings</strong>
+        option in the app's Settings screen when that option is required.
+      </p>
     </section>
 
     <section class="section">
       <h2>Personalized and Non-Personalized Advertising</h2>
-      <p>Advertising may be personalized, non-personalized, limited, or otherwise restricted depending on the user's consent choices, device settings, geographic region, and applicable legal requirements. Declining personalized advertising does not necessarily mean that no ads will be shown.</p>
+
+      <p>
+        Advertising may be personalized, non-personalized, limited,
+        or otherwise restricted depending on the user's consent choices,
+        device settings, geographic region, and applicable legal requirements.
+        Declining personalized advertising does not necessarily mean
+        that no ads will be shown.
+      </p>
     </section>
 
     <section class="section">
       <h2>Device Advertising Identifier</h2>
-      <p>On iOS, access to the device's advertising identifier (IDFA) is controlled by Apple's privacy framework. Where IDFA access is available and permitted, it may be used by advertising services for purposes such as ad delivery, measurement, attribution, and fraud prevention. If access is not available or permission is not granted, advertising may still be delivered using other permitted signals.</p>
+
+      <p>
+        On iOS, access to the device's advertising identifier (IDFA)
+        is controlled by Apple's privacy framework.
+        Where IDFA access is available and permitted, it may be used
+        by advertising services for purposes such as ad delivery,
+        measurement, attribution, and fraud prevention.
+        If access is not available or permission is not granted,
+        advertising may still be delivered using other permitted signals.
+      </p>
     </section>
 
     <section class="section">
       <h2>Personal Information</h2>
-      <p>The app does not require registration and does not ask users to provide names, email addresses, contacts, photos, health information, financial information, or precise location. Third-party advertising services may process technical and advertising-related information as described above.</p>
+
+      <p>
+        The app does not require registration and does not ask users
+        to provide names, email addresses, contacts, photos,
+        health information, financial information, or precise location.
+        Third-party advertising services may process technical
+        and advertising-related information as described above.
+      </p>
     </section>
 
     <section class="section">
       <h2>Data Retention and Deletion</h2>
-      <p>App data stored locally remains on the device until it is reset within the app or the app is deleted. ARC Raiders Quest Tracker does not maintain a developer-controlled user account or remote database containing local quest progress.</p>
-      <p>Data processed by Google Mobile Ads, UMP, or MetaForge may be retained according to those providers' own privacy policies and legal obligations.</p>
+
+      <p>
+        App data stored locally remains on the device until it is reset
+        within the app or the app is deleted.
+        Quest Tracker for Raiders does not maintain a developer-controlled
+        user account or remote database containing local quest progress.
+      </p>
+
+      <p>
+        Data processed by Google Mobile Ads, UMP, or MetaForge
+        may be retained according to those providers' own privacy policies
+        and legal obligations.
+      </p>
     </section>
 
     <section class="section">
       <h2>Third-Party Services</h2>
+
       <ul>
-        <li>Google Mobile Ads (AdMob) — advertising delivery and related measurement.</li>
-        <li>Google User Messaging Platform (UMP) — advertising consent and privacy choices.</li>
-        <li>MetaForge — ARC Raiders event schedule data.</li>
+        <li>
+          Google Mobile Ads (AdMob) — advertising delivery
+          and related measurement.
+        </li>
+
+        <li>
+          Google User Messaging Platform (UMP) —
+          advertising consent and privacy choices.
+        </li>
+
+        <li>
+          MetaForge — game event schedule data.
+        </li>
       </ul>
     </section>
 
     <section class="section">
       <h2>Children's Privacy</h2>
-      <p>The app is not designed to intentionally collect personal information from children. Advertising and privacy choices are handled through the third-party systems described in this policy.</p>
+
+      <p>
+        The app is not designed to intentionally collect
+        personal information from children.
+        Advertising and privacy choices are handled through
+        the third-party systems described in this policy.
+      </p>
     </section>
 
     <section class="section">
       <h2>Changes to This Privacy Policy</h2>
-      <p>This Privacy Policy may be updated if the app's features, third-party services, or data practices change. Updates will be published on this page.</p>
+
+      <p>
+        This Privacy Policy may be updated if the app's features,
+        third-party services, or data practices change.
+        Updates will be published on this page.
+      </p>
     </section>
 
     <section class="section">
       <h2>Contact</h2>
-      <p>Questions about this Privacy Policy can be sent through the support contact listed on the app's App Store page.</p>
+
+      <p>
+        Questions about this Privacy Policy can be sent through
+        the support contact listed on the app's App Store page.
+      </p>
     </section>
 
     <section class="section notice">
       <h2>Unofficial App Notice</h2>
-      <p>ARC Raiders Quest Tracker is an unofficial companion app and is not affiliated with, endorsed by, or sponsored by Embark Studios.</p>
+
+      <p>
+        Quest Tracker for Raiders is an independently developed,
+        unofficial companion app and is not affiliated with,
+        endorsed by, or sponsored by the developer or publisher
+        of the related game.
+      </p>
     </section>
 
-    <footer>// ARC SYSTEM · PRIVACY DOCUMENT</footer>
+    <footer>
+      // QUEST TRACKER · PRIVACY DOCUMENT
+    </footer>
+
   </main>
 </body>
 </html>
